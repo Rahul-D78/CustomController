@@ -3,6 +3,15 @@ Creation of services and Ingress controller is going to trigger automatically in
 
 ## Usages
 
+Load all the dependencies
+```$ go mod tidy```
+
+Build the App
+```$ go build```
+
+Run the app
+```$ ./<binary name>
+
 create a Kubernetes deployment
 ```$ kubectl create deployment nginx --image nginx```
 
